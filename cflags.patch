@@ -1,0 +1,13 @@
+Index: tinycdb-0.77/Makefile
+===================================================================
+--- tinycdb-0.77.orig/Makefile
++++ tinycdb-0.77/Makefile
+@@ -19,7 +19,7 @@ NSSCDB_DIR = $(sysconfdir)
+ DESTDIR=
+ 
+ CC = cc
+-CFLAGS = -O
++#CFLAGS = -O
+ 
+ AR = ar
+ ARFLAGS = rv

@@ -1,0 +1,30 @@
+Name: tinycdb
+Summary: Constant Database manipulation library
+Version: 0.77
+Release: 1
+Group: System/Libraries
+License: Public Domain
+URL: http://www.corpit.ru/mjt/tinycdb.html
+Sources:
+    - http://www.corpit.ru/mjt/%{name}/%{name}_%{version}.tar.gz
+Patches:
+    - fix-build-prefix.patch
+    - cflags.patch
+Description: |
+    tinycdb is a small, fast and reliable utility and subroutine library for 
+    creating and reading constant databases. The database structure is tuned
+    for fast reading.
+
+    This package contains tinycdb utility and shared library.
+
+PkgConfigBR:
+    - glib-2.0
+Configure: none
+Builder: none
+SubPackages:
+    - Name: devel
+      Summary: Development files for tinycdb
+      Group: Development/Libraries
+      Description: |
+        Development and headers for tinycdb
+

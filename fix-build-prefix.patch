@@ -1,0 +1,19 @@
+--- a/Makefile
++++ b/Makefile
+@@ -7,14 +7,14 @@
+ 
+ VERSION = 0.76
+ 
+-prefix=/usr/local
++prefix=/usr
+ exec_prefix=$(prefix)
+ bindir=$(exec_prefix)/bin
+ libdir=$(exec_prefix)/lib
+ syslibdir=$(libdir)
+ sysconfdir=/etc
+ includedir=$(prefix)/include
+-mandir=$(prefix)/man
++mandir=$(prefix)/share/man
+ NSSCDB_DIR = $(sysconfdir)
+ DESTDIR=
+ 

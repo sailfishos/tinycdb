@@ -1,0 +1,11 @@
+* Sun May 01 2011 Anas Nashif <anas.nashif@intel.com> - 0.77
+- Fixed packaging: Do not change buildroot in %build section
+
+* Mon Mar 15 2010 Anas Nashif <anas.nashif@intel.com> - 0.76
+- Run ldconfig in %post
+
+* Mon Mar 15 2010 Arjan van de Ven <arjan@linux.intel.com> - 0.76
+- Build the libraries -fPIC
+
+* Mon Nov 23 2009 Rusty Lynch <rusty.lynch> - 0.76
+- Initial packaging
