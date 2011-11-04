@@ -1,8 +1,0 @@
-<package project="home:stskeeps:qtmobilitywebkit" name="tinycdb">
-  <title>Constant Database manipulation library</title>
-  <description>Description: %{summary}
-
-
-</description>
-  <url>http://www.corpit.ru/mjt/tinycdb.html</url>
-</package>
